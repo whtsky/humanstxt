@@ -14,8 +14,4 @@ def test():
         assert unicode(humans).encode('utf-8') == txt
     except NameError:  # py3k
         pass
-    print str(humans)
-    print ""
-    print ""
-    print txt
     assert str(humans) == txt
