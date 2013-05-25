@@ -1,5 +1,7 @@
 import humanstxt
 
+doc = humanstxt.__doc__.replace("latest", "v%s" % humanstxt.__version__)
+
 from setuptools import setup
 
 setup(
@@ -9,8 +11,8 @@ setup(
     author_email='whtsky@gmail.com',
     url='https://github.com/whtsky/humanstxt',
     py_modules=['humanstxt'],
-    description='A python library for parsing vailed humans.txt',
-    long_description=humanstxt.__doc__,
+    description='A python library for dealing with humans.txt',
+    long_description=doc,
     include_package_data=True,
     license='MIT License',
     classifiers=[

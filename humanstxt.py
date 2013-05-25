@@ -2,8 +2,10 @@
 Humanstxt
 ==========
 
-Humanstxt is a Python library for parsing vailed humans.txt
+Humanstxt is a Python library for dealing with humans.txt
 ( like template in http://humanstxt.org/Standard.html)
+
+Documents at http://humanstxt.readthedocs.org/en/latest/
 """
 
 __all__ = ['HumanTxt', 'parse']
@@ -64,7 +66,7 @@ class HumansTxt(OrderedDict):
 
     :class:`HumansTxt` will replace ``[at]`` to ``@`` ::
 
-        print(humanstxt["team"]["contact"])  # linux_china@hotmail.com
+        print(humanstxt["team"]["Contact"])  # linux_china@hotmail.com
 
     You can turn :class:`HumansTxt` into a vailed humans.txt via ``str`` ::
 
@@ -77,7 +79,7 @@ class HumansTxt(OrderedDict):
             if k != "description":
                 lines = ["/* %s */" % k.upper()]
                 for k, v in v.items():
-                    lines.append("    %s: %s" % (k.capitalize(), v))
+                    lines.append("    %s: %s" % (k, v))
                 informations.append("\n".join(lines))
 
             else:
@@ -152,7 +154,7 @@ def parse(text):
 
             for k, v in [line.strip().split(':', 1) for line in lines]:
                 v = v.strip().replace(" [at] ", "@")
-                infos[k.strip().lower()] = v.strip()
+                infos[k.strip()] = v.strip()
             humans[title] = infos
         else:
             humans["description"] = information
