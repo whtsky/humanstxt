@@ -1,0 +1,31 @@
+/* TEAM */
+    Founder & Developer: Jacky Chan
+    Contact: linux_china [at] hotmail.com
+    Weibo: @linux_china
+    Blog: http://intellij.org.cn/blog
+    From: HangZhou, ZheJiang, China
+    University: Beijing Institute of Technology
+    Degree: Bachelor
+
+/* THANKS */
+    humans.txt Founder: Abel Cabans
+    Site: http://www.humanstxt.org
+
+/* SITE */
+    Last update: 2013/01/23
+    Language: Chinese
+    Doctype: HTML5
+    Standards: HTML5, CSS3
+    Components: RequireJS, JQuery, Backbone, BootStrap
+    Core: Java, Struts, SpringFramework, Hibernate, Lucene, MySQL, Redis, S3, SES
+    Deployment: AWS, Amazon Linux, Apache, Varnish, Tomcat, Git, TeamCity, Apache Maven
+    Software: ImageMagick, PhantomJS
+    IDE: IntelliJ IDEA
+
+        __  __                                _______  ________
+       / / / /_  ______ ___  ____ _____  ____/_  __/ |/ /_  __/
+      / /_/ / / / / __ `__ \/ __ `/ __ \/ ___// /  |   / / /
+     / __  / /_/ / / / / / / /_/ / / / (__  )/ /  /   | / /
+    /_/ /_/\__,_/_/ /_/ /_/\__,_/_/ /_/____//_/  /_/|_|/_/
+这是一个初创团队，我们致力于humans.txt的规范指定、推广和humans站点聚合，为更多Geek提供信息沟通的渠道。
+如果你有对这个非常感兴趣，欢迎你微博给我们留言。
