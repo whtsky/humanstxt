@@ -12,7 +12,7 @@ script: nosetests
 
 after_success:
   - pip install coveralls
-  - coverage run --source=werobot setup.py -q nosetests
+  - coverage run --source=humanstxt setup.py -q nosetests
   - coveralls
 
 notifications:

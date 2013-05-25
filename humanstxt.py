@@ -63,4 +63,3 @@ def parse(text):
         else:
             humans["description"] = information
     return humans
-

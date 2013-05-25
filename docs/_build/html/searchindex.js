@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{},objtypes:{},objnames:{},filenames:["index"],titles:["Welcome to humanstxt&#8217;s documentation!"],objects:{},titleterms:{document:0,welcom:0,humanstxt:0}})
